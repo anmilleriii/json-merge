@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "md5": 345615312835,
+    "schemaVersion": 1,
+    "timestamp": 161531288,
+    "applicationColdStarts": [],
+    "lastLogin": 161531283,
+    "i_am_a_new_field": 123456
+  },
+  "organization": {
+    "name": "organization name is"
+  },
+  "users": [
+    {
+      "email": "jane.doe@gmail.com",
+      "firstName": "Jane",
+      "createdAt": 16153128831
+    },
+    {
+      "email": "john.doe@gmail.com",
+      "firstName": "John",
+      "lastName": null,
+      "role": "operator",
+      "createdAt": 1615312883
+    },
+    {
+      "email": "jane.doe@gmail.com",
+      "firstName": "Jane",
+      "createdAt": 16153128831
+    },
+    null,
+    {
+      "id": "2a8f8590-9d5a-4798-bae4-ed801ac0bb2c",
+      "email": "newuser.doe@gmail.com",
+      "firstName": "new",
+      "lastName": "user",
+      "role": "asdf"
+    },
+    {
+      "id": "d5d0fb8c-73e1-4bb5-963f-2d2ad37080a6",
+      "email": "newuser.doe@gmail.com",
+      "firstName": "new",
+      "lastName": "user",
+      "role": "asdf"
+    },
+    {
+      "id": "203cd380-6685-4d3f-8c4a-e2b72f546291",
+      "email": "newuser.doe@gmail.com",
+      "firstName": "new",
+      "lastName": "user",
+      "role": "asdf"
+    },
+    {
+      "id": "0007c0a5-9a37-47e4-83e6-9a92b937bf90",
+      "email": "newuser.doe@gmail.com",
+      "firstName": "new",
+      "lastName": "user",
+      "role": "asdf"
+    },
+    {
+      "id": "2318c423-a176-4c62-9092-5a3e620b22a6",
+      "email": "newuser.doe@gmail.com",
+      "firstName": "new",
+      "lastName": "user",
+      "role": "asdf"
+    },
+    {
+      "id": "c3bad1f3-12ec-4ff2-8f23-336d999315c4",
+      "email": "newuser.doe@gmail.com",
+      "firstName": "new",
+      "lastName": "user",
+      "role": "asdf"
+    },
+    {
+      "id": "da4f0b35-4ca6-40f7-a44f-9065a1c87778",
+      "email": "newuser.doe@gmail.com",
+      "firstName": "new",
+      "lastName": "user",
+      "role": "asdf"
+    },
+    {
+      "id": "d3a16cbe-c490-4f53-9712-4ce2cf06e1eb",
+      "email": "newuser.doe@gmail.com",
+      "firstName": "new",
+      "lastName": "user",
+      "role": "asdf"
+    },
+    {
+      "id": "99e9815d-c8a0-4973-886f-4a3e87c2a49e",
+      "email": "newuser.doe@gmail.com",
+      "firstName": "new",
+      "lastName": "user",
+      "role": "asdf"
+    },
+    {
+      "id": "cc7cecaa-0cdf-4703-8484-08ad3e6d613c",
+      "email": "newuser.doe@gmail.com",
+      "firstName": "new",
+      "lastName": "user",
+      "role": "asdf"
+    },
+    {
+      "id": "a0fd187a-d56f-436a-abf7-807e04f4d808",
+      "email": "newuser.doe@gmail.com",
+      "firstName": "new",
+      "lastName": "user",
+      "role": "asdf"
+    }
+  ],
+  "i_am_a_new_field": {},
+  "I_AM_A_NEW_FIELD": {
+    "value": 123456
+  }
+}
