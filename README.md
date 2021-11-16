@@ -1,4 +1,4 @@
-# json-merge-example
+# json-merge
 
 Quick example of merging two JSON files.
 
