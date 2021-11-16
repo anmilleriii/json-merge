@@ -3,12 +3,33 @@
 const merge = require('deepmerge');
 const fs = require('fs');
 
-const db = require('../data/db.json') // local db.json
-const newDbFromCloud = require('../data/in/new_db_from_cloud.json')
-
-const merged = merge(db, newDbFromCloud)
+const oldDb = require('../data/db.json')
+const newDb = require('../data/in/new_db.json')
 const outputFileName = './data/db.json';
 
+// Entirely replace 
+console.time('replace')
+fs.writeFile(outputFileName, JSON.stringify(newDb, null, 2), (e) => {
+  if (e) {
+    throw e;
+  } else {
+    console.log('Replaced existing db.json with new JSON.')
+  }
+})
+console.timeEnd('replace')
+
+// // Reset
+// fs.writeFile(outputFileName, JSON.stringify(oldDb, null, 2), (e) => {
+//   if (e) {
+//     throw e;
+//   } else {
+//     console.log('Reset')
+//   }
+// })
+
+// Merge
+console.time('merge')
+const merged = merge(oldDb, newDb)
 fs.writeFile(outputFileName, JSON.stringify(merged, null, 2), (e) => {
   if (e) {
     throw e;
@@ -16,3 +37,5 @@ fs.writeFile(outputFileName, JSON.stringify(merged, null, 2), (e) => {
     console.log('Replaced existing db.json with merged JSON.')
   }
 })
+console.timeEnd('merge')
+

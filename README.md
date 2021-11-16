@@ -1,6 +1,31 @@
 # json-merge
 
-Quick example of merging two JSON files.
+Quick example of merging two JSON files using [deepmerge]() and [json-server]().
+
+
+## Instructions
+
+
+Install dependencies.
+```
+npm install
+```
+
+Start json-server on localhost:5000.
+```
+# T1
+npm run server
+```
+
+Merge.
+```
+# T2
+npm run merge
+```
+
+
+
+
 
 Also includes watching with `json-server`.
 
